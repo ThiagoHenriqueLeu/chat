@@ -1,5 +1,5 @@
 import eventlet
-eventlet.monkey_patch()  # 🔥 TEM QUE VIR PRIMEIRO
+eventlet.monkey_patch()  
 
 from flask import Flask, render_template, request, send_file
 from flask_socketio import SocketIO, emit
